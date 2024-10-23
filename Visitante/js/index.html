@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visitante</title>
+<link rel="stylesheet" type="text/css" href="/Visitante/css/main.css">
+</head>
+<body>
+<header>
+    <h1>Muñecos</h1>
+</header>
+<main>
+	<section>
+		<h2>Productos</h2>
+		<ul id="carrito-contenedor">
+			<li class="producto" data-producto-id="1">
+				<h3>Ortega</h3>
+				<img src="/Visitante/img/ortega.webp" alt="">
+				<p>$100</p>
+				<button class="agregar-carrito" data-precio="100">Agregar al carrito</button>
+				<button class="eliminar-producto" data-producto-id="1">X</button>
+			</li>
+			<li class="producto" data-producto-id="2">
+				<h3>Gallardo</h3>
+				<img src="/Visitante/img/gallardo.jpg" alt="">
+				<p>$200</p>
+				<button class="agregar-carrito" data-precio="200">Agregar al carrito</button>
+				<button class="eliminar-producto" data-producto-id="2">X</button>
+			</li>
+			<li class="producto" data-producto-id="3">
+				<h3>Astrada</h3>
+				<img src="/Visitante/img/astrada.jpg" alt="">
+				<p>$300</p>
+				<button class="agregar-carrito" data-precio="300">Agregar al carrito</button>
+				<button class="eliminar-producto" data-producto-id="3">X</button>
+			</li>
+
+		</ul>
+	</section>
+    <section>
+		<h2>Carrito</h2>
+		<div>
+		<ul id="carrito">
+		<!-- Los productos se agregarán aquí -->
+		</ul>
+		</div>
+	</section>
+	<p id="total">Total: $0</p>
+
+</main>
+
+<footer>
+	<p>Visitante</p>
+</footer>
+
+<script src="/Visitante/js/main.js"></script>
+
+</body>
+</html>
